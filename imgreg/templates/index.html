@@ -99,7 +99,10 @@
             
             <button type="submit" class="btn btn-success" id="submit">Find it</button><br>
         </form>
-        {% if response %}
+         <div class="alert alert-warning" role="alert" style="text-align:center;">
+        Note:    If you got an error, then there is a problem with your url.Pls try with another url.   
+        </div>
+	 {% if response %}
         <h4 id="result">My Prediction</h4>
     
         <center><img src="{{url}}" alt="Your image will be shown here." class="img-fluid" id="img"></center><br>
