@@ -1,1 +1,1 @@
-web: gunicorn scarp.wsgi --log-file -
+web: gunicorn imagereg.wsgi --log-file -
