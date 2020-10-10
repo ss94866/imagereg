@@ -25,7 +25,7 @@ SECRET_KEY = '=q7nu-f$qsigg-ynbx#ymwg!s!$2ox_c=nenamg)kpi4w5hwgz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["imgreg.herokuapp.com"]
 
 
 # Application definition
